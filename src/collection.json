@@ -1,0 +1,16 @@
+
+
+
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "sharedComponent": {
+      "description": "Generates a shared component structure with Header and Footer components.",
+      "factory": "./shared-components/index#sharedComponents"
+       },
+    "landingPage": {
+      "description": "Generates a landing page structure with multiple components.",
+      "factory": "./shared-components/index#landingPage"
+    }
+  }
+}
