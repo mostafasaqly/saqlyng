@@ -21,5 +21,9 @@
     "@types/node": "^18.18.0",
     "@types/jasmine": "~5.1.0",
     "jasmine": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mostafasaqly/saqlyng.git"
   }
 }
