@@ -1,6 +1,11 @@
-# Getting Started With Schematics
+# Getting Started With saqlyng
 
-This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
+First we need to install 
+npm install -g @angular-devkit/schematics-cli
+
+then we can use this package by commands 
+ng generate saqlyng:sharedComponent
+ng generate saqlyng:landingPage
 
 ### Testing
 
@@ -21,6 +26,12 @@ schematics --help
 To publish, simply do:
 
 ```bash
+npm run build
+npm publish
+```
+
+That's it!
+
 npm run build
 npm publish
 ```
